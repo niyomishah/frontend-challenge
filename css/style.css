@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #375572;
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  background-image: url('../images/left.png');
+  background-image: url('../images/heart.png');
+  background-repeat: no-repeat;
+}
+
+.map {
+  background-image: url('../images/map.png');
+  margin: 0 auto;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.list {
+  background-color: #293845;
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+}
+
+.bottombar {
+  background-color: #375572;
+  height: 80px;
+  margin: 0 auto;
+  background-image: url('../images/bottom.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iphonescreen {
+  height: 812px;
+  width: 375px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "SF Pro Text";
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.businfo {
+  padding-top: 25px;
+}
+
+.direction {
+  font-family: "SF Pro Text";
+  color: red;
+  font-size: 16px;
+  text-align:left;
+  padding-bottom: 7px;
+  padding-left: 25px;
+}
+
+.arrow {
+    padding-left: 330px;
+  }
+
+h2, h3 {
+  font-family: "SF Pro Text";
+  color: white;
+  font-size: 16px;
+  text-align:left;
+  padding-left: 25px;
+}
+
+
+ h4 {
+  font-family: "SF Pro Text";
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  text-align:left;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}

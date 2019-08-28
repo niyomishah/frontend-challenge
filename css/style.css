@@ -34,23 +34,24 @@
   overflow: scroll;
 }
 
+.direction-container {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #fff;
+}
+
 .bus-stop {
   display: flex;
-  padding-top: 10px;
-  border-bottom: 2px solid #fff;
 }
 
 .bus-text{
   width: 80%;
   line-height: 18px;
+  padding: 10px 0px;
 }
 
 .arrow {
   margin: 22px;
-  }
-
-.businfo {
-    padding-top: 25px;
   }
 
 .bottombar {

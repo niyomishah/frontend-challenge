@@ -7,17 +7,23 @@
   margin: 0 auto;
   width: 100%;
   height: 80px;
-  background-image: url('../images/left.png');
-  background-image: url('../images/heart.png');
-  background-repeat: no-repeat;
+  display: block;
+}
+
+.navbar-items {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: center;
+  top: 30px;
+  position: relative;
 }
 
 .map {
-  background-image: url('../images/map.png');
   margin: 0 auto;
   height: 300px;
   width: 100%;
-  background-repeat: no-repeat;
 }
 
 .list {
@@ -27,6 +33,25 @@
   height: 300px;
   overflow: scroll;
 }
+
+.bus-stop {
+  display: flex;
+  padding-top: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.bus-text{
+  width: 80%;
+  line-height: 18px;
+}
+
+.arrow {
+  margin: 22px;
+  }
+
+.businfo {
+    padding-top: 25px;
+  }
 
 .bottombar {
   background-color: #375572;
@@ -48,11 +73,6 @@ h1 {
   font-size: 14px;
   color: white;
   text-align: center;
-  padding-top: 55px;
-}
-
-.businfo {
-  padding-top: 25px;
 }
 
 .direction {
@@ -60,13 +80,8 @@ h1 {
   color: red;
   font-size: 16px;
   text-align:left;
-  padding-bottom: 7px;
   padding-left: 25px;
 }
-
-.arrow {
-    padding-left: 330px;
-  }
 
 h2, h3 {
   font-family: "SF Pro Text";
@@ -75,7 +90,6 @@ h2, h3 {
   text-align:left;
   padding-left: 25px;
 }
-
 
  h4 {
   font-family: "SF Pro Text";

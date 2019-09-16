@@ -85,7 +85,7 @@ h1 {
   padding-left: 25px;
 }
 
-.direction1 {
+.reroute {
   font-family: "SF Pro Text";
   color: red;
   text-decoration: underline;
@@ -94,7 +94,7 @@ h1 {
   padding-left: 25px;
 }
 
-.direction2 {
+.outofservice {
   font-family: "SF Pro Text";
   color: gray;
   text-decoration: underline;
